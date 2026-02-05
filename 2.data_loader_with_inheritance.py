@@ -111,9 +111,6 @@ class DatabaseDataProcessor(BaseDataProcessor):
             print(f"✓ Loaded {len(self.data)} rows from database")
         except Exception as e:
             self.errors.append(f"Database load error: {str(e)}")
-"""
 
-Now compare:
 
-**Without Inheritance**: 3 classes × 200 lines = 600 lines of code, 95% duplicated
-**With Inheritance**: 1 parent (150 lines) + 3 children (10 lines each) = 180 lines total, ZERO duplication"""
+
