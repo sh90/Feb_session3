@@ -531,7 +531,7 @@ class ChurnPredictionPipeline:
 if __name__ == "__main__":
     # Create sample data for testing
     print("="*70)
-    print("CHURN PREDICTION PIPELINE - INHERITANCE & POLYMORPHISM LAB")
+    print("CHURN PREDICTION PIPELINE")
     print("="*70)
     
     # Create sample dataset
